@@ -53,8 +53,8 @@ export default function About() {
                 className="bg-white rounded-xl p-6 shadow-sm border border-coffee-200"
               >
                 <f.icon className="w-8 h-8 text-coffee-600 mb-3" />
-                <h3 className="font-semibold text-coffee-900 mb-1">{f.title}</h3>
-                <p className="text-sm text-coffee-600 leading-relaxed">{f.desc}</p>
+                <h3 className={"font-semibold text-coffee-900 mb-1"}>{f.title}</h3>
+                <p className={"text-sm text-coffee-600 leading-relaxed"}>{f.desc}</p>
               </div>
             ))}
           </div>

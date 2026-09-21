@@ -53,8 +53,8 @@ export default function Menu() {
                 {cat.items.map((item) => (
                   <li key={item.name} className="flex justify-between gap-4">
                     <div>
-                      <p className="font-semibold text-coffee-900">{item.name}</p>
-                      <p className="text-sm text-coffee-600 mt-0.5">{item.desc}</p>
+                      <p className={"font-semibold text-coffee-900"}>{item.name}</p>
+                      <p className={"text-sm text-coffee-600 mt-0.5"}>{item.desc}</p>
                     </div>
                     <span className="font-semibold text-coffee-700 whitespace-nowrap">
                       {item.price}
